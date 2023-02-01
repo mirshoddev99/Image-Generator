@@ -21,7 +21,7 @@
   
 ## Installation
 
-  Clone the repository: git clone https://github.com/<username>/image-generation-web-app.git
+  Clone the repository: git clone https://github.com/mirshoddev99/Image-Generator.git
   Navigate to the project directory: cd image-generation-web-app
   Create a virtual environment: python -m venv venv
   Activate the virtual environment: source venv/bin/activate
