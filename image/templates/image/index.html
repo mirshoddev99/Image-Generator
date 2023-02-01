@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Generation</title>
+    <style>
+      body {
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #ccc;
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 30px;
+        font-size: 36px;
+      }
+      .btn {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 0.3s ease-in-out;
+      }
+      .btn:hover {
+        background-color: #3E8E41;
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Welcome to Image Generation App</h1>
+      <a href="{% url 'image-generation' %}" class="btn">Click on it</a>
+    </div>
+
+  </body>
+</html>
+
